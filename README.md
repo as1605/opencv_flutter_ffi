@@ -1,6 +1,10 @@
 # opencv_flutter_ffi
 
-A new Flutter project.
+Uses dart:ffi to run OpenCV C++ 4.5.3 on Flutter App. 
+
+Provided release with a sample gaussian blur function. Can use this repo as a template for projects needing image processing on flutter.
+
+[Reference](https://www.flutterclutter.dev/flutter/tutorials/implementing-edge-detection-in-flutter/2020/1509/)
 
 ## Getting Started
 

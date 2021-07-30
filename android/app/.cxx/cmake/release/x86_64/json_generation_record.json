@@ -25,6 +25,12 @@
   },
   {
     "level": "INFO",
+    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "file": "/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/CMakeLists.txt",
+    "tag": "release|x86_64"
+  },
+  {
+    "level": "INFO",
     "message": "JSON \u0027/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/release/x86_64/android_gradle_build.json\u0027 was up-to-date",
     "file": "/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/CMakeLists.txt",
     "tag": "release|x86_64"
