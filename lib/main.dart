@@ -29,7 +29,11 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final ImagePicker _picker = ImagePicker();
-  final dylib = DynamicLibrary.open("libgaussian.so");
+  // For Android, you call DynamicLibrary to find and open the shared library
+  // You don’t need to do this in iOS since all linked symbols map when an app runs.
+  final dylib = Platform.isAndroid
+      ? DynamicLibrary.open("libOpenCV_ffi.so")
+      : DynamicLibrary.process();
   String _img = "none";
   @override
   Widget build(BuildContext context) {

@@ -4,17 +4,16 @@ Uses dart:ffi to run OpenCV C++ 4.5.3 on Flutter App.
 
 Provided release with a sample gaussian blur function. Can use this repo as a template for projects needing image processing on flutter.
 
-[Reference](https://www.flutterclutter.dev/flutter/tutorials/implementing-edge-detection-in-flutter/2020/1509/)
+Please install OpenCV iOS Framework and put it at location ios/opencv2.framework
 
-## Getting Started
+## References
+* [OpenCV iOS Framework](https://sourceforge.net/projects/opencvlibrary/files/4.5.3/opencv-4.5.3-ios-framework.zip/download)
+* [OpenCV Android Framework](https://sourceforge.net/projects/opencvlibrary/files/4.5.3/opencv-4.5.3-android-sdk.zip/download)
+* [About FFI](https://www.youtube.com/watch?v=2MMK7YoFgaA)
+* [Android config](https://www.flutterclutter.dev/flutter/tutorials/implementing-edge-detection-in-flutter/2020/1509/)
+* [iOS config](https://www.raywenderlich.com/21512310-calling-native-libraries-in-flutter-with-dart-ffi#toc-anchor-015)
 
-This project is a starting point for a Flutter application.
+## Known Issues
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* [image_picker crashes when picking images on simulator running on Apple Silicon M1 #71943](https://github.com/flutter/flutter/issues/71943)
+* [Some plugins breaks on release mode on Android #78625](https://github.com/flutter/flutter/issues/78625)

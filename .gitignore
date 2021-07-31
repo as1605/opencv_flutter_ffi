@@ -1,6 +1,7 @@
 .DS_Store
 .flutter-plugins
 .flutter-plugins-dependencies
+ios/opencv2.framework
 # See https://www.dartlang.org/guides/libraries/private-files
 
 # Files and directories created by pub
