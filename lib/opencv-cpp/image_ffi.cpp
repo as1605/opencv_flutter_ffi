@@ -7,8 +7,8 @@ void image_ffi (uchar *buf, uint *size) {
     cv::Mat img = cv::imdecode(cv::Mat(v), cv::IMREAD_COLOR);
 
 
-    cv::GaussianBlur(img, img, cv::Size(5, 5), 0, 0);
-    cv::putText(img, "Hello World", cv::Size(20, 20), 2, 2, 2);
+    cv::GaussianBlur(img, img, cv::Size(15, 15), 0, 0);
+    cv::putText(img, "Hello World!", cv::Size(30, 30), 1, 1.5, 2, 2);
 
 
     std::vector <uchar> retv;

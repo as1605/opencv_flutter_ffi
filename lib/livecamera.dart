@@ -26,7 +26,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
   late Future<void> _initializeControllerFuture;
   bool _isStreaming = false;
   Image _img = Image.asset('assets/img/default.jpg');
-
+  Image _old = Image.asset('assets/img/default.jpg');
   @override
   void initState() {
     super.initState();
@@ -62,7 +62,8 @@ class TakePictureScreenState extends State<TakePictureScreen> {
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             // If the Future is complete, display the preview.
-            return Center(child: _img); //CameraPreview(_controller);
+            return Center(child: Stack(children: [_old, _img]));
+            //CameraPreview(_controller);
           } else {
             // Otherwise, display a loading indicator.
             return const Center(child: CircularProgressIndicator());
@@ -104,6 +105,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
 
                 if (mounted) {
                   setState(() {
+                    _old = _img;
                     _img = Image.memory(p.asTypedList(s[0]));
                   });
                 }

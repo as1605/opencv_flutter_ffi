@@ -1,3 +1,0 @@
-/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/profile/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/profile/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/profile/arm64-v8a/CMakeFiles/OpenCV_ffi.dir

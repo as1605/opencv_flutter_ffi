@@ -1,7 +1,0 @@
-Executable : /Users/adityasingh/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
-arguments : 
--C
-/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/profile/x86
-OpenCV_ffi
-jvmArgs : 
-
