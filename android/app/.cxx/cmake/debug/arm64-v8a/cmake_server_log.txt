@@ -43,14 +43,14 @@ CMAKE SERVER: {
     "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
     "-DANDROID_ABI\u003darm64-v8a",
     "-DANDROID_NDK\u003d/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462",
-    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DANDROID_PLATFORM\u003dandroid-21",
     "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
     "-DCMAKE_ANDROID_NDK\u003d/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462",
     "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
     "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a",
     "-DCMAKE_MAKE_PROGRAM\u003d/Users/adityasingh/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
     "-DCMAKE_SYSTEM_NAME\u003dAndroid",
-    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
     "-DANDROID_STL\u003dc++_shared"
   ]
 }
@@ -346,7 +346,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/debug/arm64-v8a","name":"Project","sourceDirectory":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app","targets":[{"artifacts":["/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libgaussian.so"],"buildDirectory":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -std=c++17 -O0 -fno-limit-debug-info  -fPIC  ","defines":["gaussian_EXPORTS"],"includePath":[{"path":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/../../include"}],"isGenerated":false,"language":"CXX","sources":["../../lib/opencv-cpp/gaussian.cpp"]}],"fullName":"libgaussian.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"../../../../../src/main/jniLibs/arm64-v8a/libopencv_java4.so -latomic -lm","linkerLanguage":"CXX","name":"gaussian","sourceDirectory":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app","sysroot":"/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/debug/arm64-v8a","name":"Project","sourceDirectory":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app","targets":[{"artifacts":["/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libOpenCV_ffi.so"],"buildDirectory":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -std=c++17 -O0 -fno-limit-debug-info  -fPIC  ","defines":["OpenCV_ffi_EXPORTS"],"includePath":[{"path":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/../include"}],"isGenerated":false,"language":"CXX","sources":["../../lib/opencv-cpp/main.cpp"]}],"fullName":"libOpenCV_ffi.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"../../../../../src/main/jniLibs/arm64-v8a/libopencv_java4.so -latomic -lm","linkerLanguage":"CXX","name":"OpenCV_ffi","sourceDirectory":"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app","sysroot":"/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 

@@ -1,4 +1,5 @@
 .DS_Store
+.vscode/
 .flutter-plugins
 .flutter-plugins-dependencies
 ios/opencv2.framework

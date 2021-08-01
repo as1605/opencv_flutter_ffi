@@ -1,11 +1,3 @@
 # ninja log v5
-0	1126	1627646220	CMakeFiles/gaussian.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/gaussian.cpp.o	b37c1c30582a6a17
-1127	1172	1627646220	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/release/obj/x86/libgaussian.so	21be86db21790de5
-1	1343	1627648360	CMakeFiles/gaussian.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/gaussian.cpp.o	b37c1c30582a6a17
-1343	1437	1627648361	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/release/obj/x86/libgaussian.so	21be86db21790de5
-0	1132	1627717205	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	3b04b72d6dd215d8
-1133	1200	1627717205	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/release/obj/x86/libOpenCV_ffi.so	63929b40c0a5c31
-1	1142	1627717468	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5211b98f0ed22b3
-1142	1206	1627717468	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/release/obj/x86/libOpenCV_ffi.so	63929b40c0a5c31
-1	1176	1627717727	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5211b98f0ed22b3
-1176	1245	1627717727	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/release/obj/x86/libOpenCV_ffi.so	63929b40c0a5c31
+1	1300	1627834126	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	550c86cdb45500bf
+1301	1367	1627834126	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/release/obj/x86/libOpenCV_ffi.so	49af7e0a0ae99e3e

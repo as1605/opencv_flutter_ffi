@@ -1,7 +1,7 @@
 {
   "stringTable": {
     "0": "/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/release/x86",
-    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DOpenCV_ffi_EXPORTS -I../../../../../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++17 -O2 -DNDEBUG -fPIC"
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DOpenCV_ffi_EXPORTS -I../../../../../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++17 -O2 -DNDEBUG -fPIC"
   },
   "buildFiles": [
     "/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/CMakeLists.txt",

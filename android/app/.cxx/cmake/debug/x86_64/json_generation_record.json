@@ -1,7 +1,7 @@
 [
   {
     "level": "INFO",
-    "message": "Start JSON generation. Platform version: 16 min SDK version: x86_64",
+    "message": "Start JSON generation. Platform version: 21 min SDK version: x86_64",
     "file": "/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/CMakeLists.txt",
     "tag": "debug|x86_64"
   },

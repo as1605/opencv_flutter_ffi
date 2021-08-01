@@ -9,11 +9,11 @@
   ],
   "buildTargetsCommand": "/Users/adityasingh/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
-    "gaussian-Debug-x86_64": {
-      "artifactName": "gaussian",
-      "buildCommand": "/Users/adityasingh/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/debug/x86_64\" gaussian",
+    "OpenCV_ffi-Debug-x86_64": {
+      "artifactName": "OpenCV_ffi",
+      "buildCommand": "/Users/adityasingh/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/debug/x86_64\" OpenCV_ffi",
       "abi": "x86_64",
-      "output": "/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/x86_64/libgaussian.so",
+      "output": "/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/x86_64/libOpenCV_ffi.so",
       "runtimeFiles": [
         "/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/src/main/jniLibs/x86_64/libopencv_java4.so"
       ]

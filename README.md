@@ -12,7 +12,9 @@ Please install OpenCV iOS Framework and put it at location ios/opencv2.framework
 * [About FFI](https://www.youtube.com/watch?v=2MMK7YoFgaA)
 * [Android config](https://www.flutterclutter.dev/flutter/tutorials/implementing-edge-detection-in-flutter/2020/1509/)
 * [iOS config](https://www.raywenderlich.com/21512310-calling-native-libraries-in-flutter-with-dart-ffi#toc-anchor-015)
-
+* [Flutter CameraController](https://flutter.dev/docs/cookbook/plugins/picture-using-camera)
+* [Flutter startImageStream](https://pub.dev/documentation/camera/latest/camera/CameraController/startImageStream.html)
+* [Image Format Group](https://github.com/flutter/flutter/issues/26348#issuecomment-796566914)
 ## Known Issues
 
 * [image_picker crashes when picking images on simulator running on Apple Silicon M1 #71943](https://github.com/flutter/flutter/issues/71943)

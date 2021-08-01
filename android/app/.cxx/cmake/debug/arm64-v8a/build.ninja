@@ -49,44 +49,44 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
 # =============================================================================
-# Object build statements for SHARED_LIBRARY target gaussian
+# Object build statements for SHARED_LIBRARY target OpenCV_ffi
 
 
 #############################################
-# Order-only phony target for gaussian
+# Order-only phony target for OpenCV_ffi
 
-build cmake_object_order_depends_target_gaussian: phony
-build CMakeFiles/gaussian.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/gaussian.cpp.o: CXX_COMPILER__gaussian /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/gaussian.cpp || cmake_object_order_depends_target_gaussian
-  DEFINES = -Dgaussian_EXPORTS
-  DEP_FILE = CMakeFiles/gaussian.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/gaussian.cpp.o.d
+build cmake_object_order_depends_target_OpenCV_ffi: phony
+build CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o: CXX_COMPILER__OpenCV_ffi /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp || cmake_object_order_depends_target_OpenCV_ffi
+  DEFINES = -DOpenCV_ffi_EXPORTS
+  DEP_FILE = CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -std=c++17 -O0 -fno-limit-debug-info  -fPIC
-  INCLUDES = -I../../../../../../include
-  OBJECT_DIR = CMakeFiles/gaussian.dir
-  OBJECT_FILE_DIR = CMakeFiles/gaussian.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp
+  INCLUDES = -I../../../../../include
+  OBJECT_DIR = CMakeFiles/OpenCV_ffi.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp
 
 # =============================================================================
-# Link build statements for SHARED_LIBRARY target gaussian
+# Link build statements for SHARED_LIBRARY target OpenCV_ffi
 
 
 #############################################
-# Link the shared library /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libgaussian.so
+# Link the shared library /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libOpenCV_ffi.so
 
-build /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libgaussian.so: CXX_SHARED_LIBRARY_LINKER__gaussian CMakeFiles/gaussian.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/gaussian.cpp.o | ../../../../../src/main/jniLibs/arm64-v8a/libopencv_java4.so
+build /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libOpenCV_ffi.so: CXX_SHARED_LIBRARY_LINKER__OpenCV_ffi CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o | ../../../../../src/main/jniLibs/arm64-v8a/libopencv_java4.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -std=c++17 -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
   LINK_LIBRARIES = ../../../../../src/main/jniLibs/arm64-v8a/libopencv_java4.so -latomic -lm
-  OBJECT_DIR = CMakeFiles/gaussian.dir
+  OBJECT_DIR = CMakeFiles/OpenCV_ffi.dir
   POST_BUILD = :
   PRE_LINK = :
-  SONAME = libgaussian.so
+  SONAME = libOpenCV_ffi.so
   SONAME_FLAG = -Wl,-soname,
-  TARGET_FILE = /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libgaussian.so
-  TARGET_PDB = gaussian.so.dbg
+  TARGET_FILE = /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libOpenCV_ffi.so
+  TARGET_PDB = OpenCV_ffi.so.dbg
 # =============================================================================
 # Target aliases.
 
-build gaussian: phony /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libgaussian.so
-build libgaussian.so: phony /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libgaussian.so
+build OpenCV_ffi: phony /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libOpenCV_ffi.so
+build libOpenCV_ffi.so: phony /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libOpenCV_ffi.so
 # =============================================================================
 # Folder targets.
 
@@ -98,7 +98,7 @@ build libgaussian.so: phony /Users/adityasingh/Desktop/Codes/Experimental/opencv
 #############################################
 # The main all target.
 
-build all: phony /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libgaussian.so
+build all: phony /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/arm64-v8a/libOpenCV_ffi.so
 
 #############################################
 # Make the all target the default.

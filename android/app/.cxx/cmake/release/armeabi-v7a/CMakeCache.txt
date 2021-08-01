@@ -21,7 +21,7 @@ ANDROID_ABI:UNINITIALIZED=armeabi-v7a
 ANDROID_NDK:UNINITIALIZED=/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462
 
 //No help, variable specified on the command line.
-ANDROID_PLATFORM:UNINITIALIZED=android-16
+ANDROID_PLATFORM:UNINITIALIZED=android-21
 
 //No help, variable specified on the command line.
 ANDROID_STL:UNINITIALIZED=c++_shared
@@ -205,10 +205,10 @@ CMAKE_STRIP:FILEPATH=/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/too
 CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 
 //No help, variable specified on the command line.
-CMAKE_SYSTEM_VERSION:UNINITIALIZED=16
+CMAKE_SYSTEM_VERSION:UNINITIALIZED=21
 
-//No help, variable specified on the command line.
-CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
+//The CMake toolchain file
+CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/adityasingh/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -224,9 +224,6 @@ Project_BINARY_DIR:STATIC=/Users/adityasingh/Desktop/Codes/Experimental/opencv_f
 
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app
-
-//Dependencies for the target
-gaussian_LIB_DEPENDS:STATIC=general;lib_opencv;
 
 
 ########################

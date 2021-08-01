@@ -1,0 +1,19 @@
+# ninja log v5
+0	1368	1627760311	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+1369	1438	1627760311	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
+1	2062	1627797452	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+2062	2164	1627797452	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
+2	1297	1627798155	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+1297	1366	1627798155	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
+2	1253	1627801483	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+1253	1322	1627801483	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
+1	1273	1627806980	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+1273	1345	1627806980	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
+2	1259	1627807683	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+1260	1335	1627807683	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
+2	1265	1627807863	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+1265	1338	1627807863	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
+1	1286	1627808777	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+1286	1358	1627808777	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
+1	1298	1627814968	CMakeFiles/OpenCV_ffi.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/main.cpp.o	5638126f1b756b05
+1298	1425	1627814968	/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/profile/obj/arm64-v8a/libOpenCV_ffi.so	41a50c638a0e7471
