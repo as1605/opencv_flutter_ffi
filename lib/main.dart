@@ -3,6 +3,9 @@ import 'package:image_picker/image_picker.dart';
 import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 import 'dart:io';
+import 'package:camera/camera.dart';
+
+import 'livecamera.dart';
 
 void main() {
   runApp(MyApp());
@@ -34,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final dylib = Platform.isAndroid
       ? DynamicLibrary.open("libOpenCV_ffi.so")
       : DynamicLibrary.process();
-  String _img = "none";
+  Image _img = Image.asset('assets/img/default.jpg');
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,6 +46,20 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            ElevatedButton(
+                onPressed: () async {
+                  WidgetsFlutterBinding.ensureInitialized();
+                  // Obtain a list of the available cameras on the device.
+                  final cameras = await availableCameras();
+                  // Get a specific camera from the list of available cameras.
+                  final firstCamera = cameras.first;
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) =>
+                              TakePictureScreen(camera: firstCamera)));
+                },
+                child: Text('Camera')),
             ElevatedButton(
               onPressed: () async {
                 final imageFile =
@@ -54,12 +71,12 @@ class _MyHomePageState extends State<MyHomePage> {
                     void Function(Pointer<Utf8>)>('Gaussian');
                 gaussian(imagePath);
                 setState(() {
-                  _img = imagePath.toDartString();
+                  _img = Image.file(File(imagePath.toDartString()));
                 });
               },
               child: Text("Pick Image from Gallery"),
             ),
-            Image.file(File(_img))
+            Center(child: _img),
           ],
         ),
       ),

@@ -1,3 +1,0 @@
-ninja: Entering directory `/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/android/app/.cxx/cmake/debug/x86_64'
-[1/2] Building CXX object CMakeFiles/gaussian.dir/Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/lib/opencv-cpp/gaussian.cpp.o
-[2/2] Linking CXX shared library /Users/adityasingh/Desktop/Codes/Experimental/opencv_flutter_ffi/build/app/intermediates/cmake/debug/obj/x86_64/libgaussian.so

@@ -1,4 +1,6 @@
 .DS_Store
+.vscode/
+android/app/.cxx/
 .flutter-plugins
 .flutter-plugins-dependencies
 ios/opencv2.framework
