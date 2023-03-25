@@ -1,7 +1,7 @@
 name: opencv_flutter_ffi
 description: A new Flutter project.
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
 
@@ -13,7 +13,7 @@ dependencies:
     sdk: flutter
   ffi: ^1.1.2
   image_picker: ^0.8.2
-  camera: ^0.8.1+7
+  camera: ^0.10.3+2
   image: ^3.0.2
 
 dev_dependencies:
@@ -22,5 +22,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets: 
+  assets:
     - assets/img/default.jpg
